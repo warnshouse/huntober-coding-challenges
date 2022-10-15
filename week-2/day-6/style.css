@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+#root {
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  border-radius: 8px;
+  padding: 5px 20px;
+  margin: 10px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 1.25rem;
+}
+
+
+#gameBoard {
+  display: flex;
+  flex-wrap: wrap;
+  width: min(60%,80vh, 800px);
+  border: 20px solid #8D8D8D;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0px 0px #767676;
+}
+
+.gameSquare {
+  flex-basis: 33.3333333%;
+}
